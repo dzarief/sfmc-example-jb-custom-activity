@@ -5,6 +5,7 @@ const bodyParser = require('body-parser')
 const submodules = [
     require('./modules/discount-code/app/app'),
     require('./modules/discount-redemption-split/app/app'),
+    require('./modules/sms/app/app'),
 ];
 
 const app = express();
